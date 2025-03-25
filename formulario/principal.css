@@ -1,0 +1,71 @@
+body {
+background: #FFF8E7; 
+font-family: Arial, sans-serif;
+}
+
+.formulario {
+    max-width: 750px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: white; 
+}
+
+
+.formulario h2 {
+text-align: center;
+color: #FF6B6B;
+margin-bottom: 25px;
+font-size: 1.5em;
+}
+
+.campo {
+margin-bottom: 15px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+color: #FF6B6B; /* Rosa intenso */
+}
+
+input, select {
+width: 100%;
+padding: 8px;
+border: 2px solid #FF6B6B; /* Bordes rosados */
+border-radius: 4px;
+background: white;
+}
+
+button {
+width: 100%;
+padding: 12px;
+background: linear-gradient(145deg, #FF6B6B 0%, #FF3B3F 100%);
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+button:hover {
+background: linear-gradient(145deg, #FF3B3F 0%, #FF1A1A 100%);
+transform: translateY(-2px);
+}
+
+/* Efectos adicionales */
+input:focus, select:focus {
+border-color: #FF3B3F;
+box-shadow: 0 0 5px rgba(255,59,63,0.3);
+}.campo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.opciones {
+    display: flex;
+    gap: 10px;
+}
