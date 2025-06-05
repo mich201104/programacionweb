@@ -1,0 +1,12 @@
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+  background-color: pink;
+  width: 50%;
+  text-align: center;
+}
+
+tr, td,th {
+  border: 1px solid;
+  padding: 10px; /* Aumenta el espacio dentro de las celdas */
+}
